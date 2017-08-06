@@ -6,8 +6,12 @@ body{
 
 h1{
     width:500px;
-    margin-left: 200px;
+    margin-left: 400px;
     margin-right:auto;
+}
+
+.header{
+    color:blue;
 }
 
 h3{
@@ -16,9 +20,23 @@ h3{
     margin-right:   auto;
 }
 
+.inlineBlock li{
+    margin-left : 40px;
+    margin-right :40px;
+    list-style-type: square;
+    float:left;
+}
+
 .heiretu{
     width : 1000px;
     display:flex;
+}
+
+.heiretu2{
+    width : 1000px;
+    margin-left :300px;
+    margin-right : auto;
+    display :flex;
 }
 
 .box{
@@ -33,7 +51,8 @@ h3{
     margin-right : auto;
 }
 
-.header{
-    color:blue;
+.box3{
+    width : 500px;
+    margin-left : 300px;
+    margin-right : auto;
 }
-
